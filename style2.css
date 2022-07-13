@@ -1,0 +1,57 @@
+h1 {
+	position:absolute;
+	left:100px;
+	top:100px;
+	font-family: Lucida Handwriting, Helvetica;
+	color: lightsalmon;
+}
+
+h2 {
+	position:absolute;
+	left:300px;
+	top:100px;
+	font-family: Lucida Handwriting, Helvetica;	
+}
+h3 {
+	position:absolute;
+	left:300px;
+	top:150px;
+	font-family: Lucida Handwriting, Helvetica;	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: mediumvioletred;
+    text-align: center;
+    padding: 14px 27px;
+    text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+li a:hover:not(.active) {
+    background-color: mistyrose;
+}
+
+li a.active {
+    
+    background-color: green;
+}
+
+body {
+	background-image: url(arriere_plan.jpg);
+	background-size: cover;
+}
+
+
